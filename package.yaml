@@ -46,3 +46,4 @@ tests:
     dependencies:
     - hw07
     - hspec
+    - QuickCheck
