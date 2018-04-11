@@ -25,7 +25,7 @@ library:
   source-dirs: src
 
 executables:
-  hw07-exe:
+  calculator:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -45,3 +45,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - hw07
+    - hspec
